@@ -1,1 +1,0 @@
-# jonathanschapiro.github.io

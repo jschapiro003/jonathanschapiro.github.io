@@ -11,16 +11,20 @@ It's taken Apple 7 years to allow it, but the time has finally come. Unfortunate
 
 1. Make sure to download Xcode 7 beta 5 [Download Here](https://developer.apple.com/xcode/downloads/)
 2. Navigate to your Xcode project that you would like to run on your device
-3. Select your project in the project navigator
+3. Select your project in the project navigator 
+![projectNavigator](/images/projectNavigator.png?raw=true)
 4. You should now be shown the target display for your project
+![badBundle](/images/badBundle.png?raw=true)
 5. Navigate to the General tab
 6. Select or add your name from the Team dropdown in the identity section
+![goodName](/images/goodName.png?raw=true)
 7. You may be prompted to "Fix issue" as "No matching provisioning profiles found"
 8. Click "Fix Issue"
 
 > An odd bug I encountered when building my Ionic App was when trying to build it. Upon building the app, a series of numbers was added to the Bundle Identifier. This prevented me from running the app on my phone. Removing the numbers fixed the issue. 
 
 9. Now you are good to go. Choose your device from the dropdown menu and clikc the play button.
+![runApp](/images/runApp.png?raw=true)
 
 
 

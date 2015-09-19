@@ -6,13 +6,17 @@ categories: jekyll update
 ---
 
 # React Native Lessons Learned
----------------------------------------------------------------------------------------------- What did I learn when building a React Native App?
+---------------------------------------------------------------------------------------------- 
+
+
+What did I learn when building a React Native App?
 
 Ok so here's the deal. I'm in the process of building a React Native App and I wanted to share with you some of the lessons that I learned along the way. Each of these topics will hopefully be built out into their own blog post but for now, I find it valuable to put the knowledge out there.
 
 
 # Common Mistakes
-###    1) Choose the correct IP address when loading your application from the development server. If you want to run the app on your phone this is super important.
+### 1) Choose the correct IP address when loading your application from the development server. 
+### If you want to run the app on your phone this is super important.
     - You can get your IP by running ifconfig in your terminal
          - Look for the inet value under en0
          - THIS CHANGES WHEN YOUR WIFI NETWORK CHANGES!!!!
@@ -25,6 +29,7 @@ Ok so here's the deal. I'm in the process of building a React Native App and I w
         
 # Helpful Hints
 ###     1) ViewDidAppear does not exist! 
+        
         - For those of you that are not coming from an iOS background, ViewDidAppear does the following : Notifies the view controller that its view was added to a view hierarchy.
         -In the definition above, for conversation sake, substitute view with component and view hierarch with index in your navigator. They are not directly equivilant but I think that it can be explained in such a way. 
         - I felt that without componenet lifecycle methods like, ViewDidAppear, it was difficult to reload relevant data at appropriate times. It would be nice to be able to trigger viewDidAppear and reload data from my apps server. For example, I would like for every time a component that displays a user's newest events data comes into view, a Fetch request is made to  my app's API and have the event data be refreshed. I had to come up with somework arounds for such instances (see section about callbacks)

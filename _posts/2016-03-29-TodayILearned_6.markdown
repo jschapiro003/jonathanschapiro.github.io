@@ -14,13 +14,13 @@ Interfaces are nice because they solve the problem of multiple inhertiance in Ja
 
 Tying it together, here is a great Stack Overflow example of using an abstract class and interface together:
   ```javascript
-    "How about an analogy: when I was in the Air Force, I went to pilot training and became a USAF (US Air Force) pilot. At that point I wasn't qualified to fly anything, and had to attend aircraft type training. Once I qualified, I was a pilot (Abstract class) and a C-141 pilot (concrete class). At one of my assignments, I was given an additional duty: Safety Officer. Now I was still a pilot and a C-141 pilot, but I also performed Safety Officer duties (I implemented ISafetyOfficer, so to speak). A pilot wasn't required to be a safety officer, other people could have done it as well.
-    All USAF pilots have to follow certain Air Force-wide regulations, and all C-141 (or F-16, or T-38) pilots 'are' USAF pilots. Anyone can be a safety officer. So, to summarize:
+  "How about an analogy: when I was in the Air Force, I went to pilot training and became a USAF (US Air Force) pilot. At that point I wasn't qualified to fly anything, and had to attend aircraft type training. Once I qualified, I was a pilot (Abstract class) and a C-141 pilot (concrete class). At one of my assignments, I was given an additional duty: Safety Officer. Now I was still a pilot and a C-141 pilot, but I also performed Safety Officer duties (I implemented ISafetyOfficer, so to speak). A pilot wasn't required to be a safety officer, other people could have done it as well.
+  All USAF pilots have to follow certain Air Force-wide regulations, and all C-141 (or F-16, or T-38) pilots 'are' USAF pilots. Anyone can be a safety officer. So, to summarize:
 
-    Pilot: abstract class
-    C-141 Pilot: concrete class
-    ISafety Officer: interface
-    added note: this was meant to be an analogy to help explain the concept, not a coding recommendation. See the various comments below, the discussion is interesting." - Jay
+  Pilot: abstract class
+  C-141 Pilot: concrete class
+  ISafety Officer: interface
+  added note: this was meant to be an analogy to help explain the concept, not a coding recommendation. See the various comments below, the discussion is interesting." - Jay
   ```
 
 Key Points: 

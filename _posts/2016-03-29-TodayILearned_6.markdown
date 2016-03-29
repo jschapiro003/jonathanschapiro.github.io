@@ -13,7 +13,7 @@ would ever need to instantiate a shape but, I would need to instantiate a triang
 Interfaces are nice because they solve the problem of multiple inhertiance in Java. A class can easily implement multiple interfaces but can only extend a single abstract class. 
 
 Tying it together, here is a great Stack Overflow example of using an abstract class and interface together:
-  ```javascript
+  
   "How about an analogy: when I was in the Air Force, I went to pilot training and became a USAF (US Air Force) pilot. At that point I wasn't qualified to fly anything, and had to attend aircraft type training. Once I qualified, I was a pilot (Abstract class) and a C-141 pilot (concrete class). At one of my assignments, I was given an additional duty: Safety Officer. Now I was still a pilot and a C-141 pilot, but I also performed Safety Officer duties (I implemented ISafetyOfficer, so to speak). A pilot wasn't required to be a safety officer, other people could have done it as well.
   All USAF pilots have to follow certain Air Force-wide regulations, and all C-141 (or F-16, or T-38) pilots 'are' USAF pilots. Anyone can be a safety officer. So, to summarize:
 
@@ -21,7 +21,6 @@ Tying it together, here is a great Stack Overflow example of using an abstract c
   C-141 Pilot: concrete class
   ISafety Officer: interface
   added note: this was meant to be an analogy to help explain the concept, not a coding recommendation. See the various comments below, the discussion is interesting." - Jay
-  ```
 
 Key Points: 
   Abstract class is a class which contain one or more abstract methods, which has to be implemented by sub classes. An abstract class can contain no abstract methods also i.e. abstract class may contain concrete methods. A Java Interface can contain only method declarations and public static final constants and doesn’t contain their implementation. The classes which implement the Interface must provide the method definition for all the methods present.
